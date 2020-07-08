@@ -23,6 +23,7 @@ import java.io.IOException
 const val GALLERY = 1
 const val CAMERA = 2
 
+
 class MainActivity : AppCompatActivity() {
 
     private val viewModel: LiveDataViewModel by viewModels { LiveDataVMFactory(application) }

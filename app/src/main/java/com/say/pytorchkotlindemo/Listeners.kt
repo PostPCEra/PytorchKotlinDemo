@@ -9,7 +9,7 @@ class Listeners(private val activity: AppCompatActivity) {
 
     fun showPictureDialog() {
         val pictureDialog = AlertDialog.Builder(activity)
-        pictureDialog.setTitle("Select Action")
+        pictureDialog.setTitle("Select Action Om Sri !!!!!!")
         val pictureDialogItems = arrayOf("Select photo from gallery", "Capture photo from camera")
         pictureDialog.setItems(
             pictureDialogItems
